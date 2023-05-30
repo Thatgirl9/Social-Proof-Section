@@ -68,7 +68,6 @@ body {
   gap: 2em;
   background-color: var(--text-color4);
   color: var(--text-color1);
-  /* width: 25.5em; */
   padding: 1em 1em 1em 1.2em;
   padding: 1em;
   border-radius: 5px;
@@ -185,13 +184,18 @@ body {
   .header-card__p .line-break {
     display: none;
   }
-  /* .header-card--2 {
-  } */
+
+  .header-card--2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .component__1 {
     display: block;
     text-align: center;
-    width: 100%;
+    /* width: 10em; */
   }
 
   .component-star__1 {
@@ -203,17 +207,17 @@ body {
   }
 
   .component--1 {
-    width: 100%;
+    width: 70%;
   }
 
   .component__2 {
     margin-left: 0;
-    width: 100%;
+    width: 70%;
   }
 
   .component__3 {
     margin-left: 0;
-    width: 100%;
+    width: 70%;
   }
 
   /* SECOND PART */
