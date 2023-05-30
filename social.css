@@ -159,9 +159,7 @@ body {
 @media screen and (max-width: 768px) {
   body {
     background: url(./social-proof-section/images/bg-pattern-top-mobile.svg) top
-        no-repeat,
-      url(./social-proof-section/images/bg-pattern-bottom-mobile.svg) bottom
-        no-repeat;
+      no-repeat;
   }
 
   .header-card {
@@ -173,13 +171,19 @@ body {
 
   .header-card__title {
     text-align: center;
+    font-size: 3rem;
   }
 
   .header-card__p {
     text-align: center;
+    width: 19em;
   }
 
-  .header-card__p br {
+  .line-break {
+    display: none;
+  }
+
+  .header-card__p .line-break {
     display: none;
   }
   /* .header-card--2 {
