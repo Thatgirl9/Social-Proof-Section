@@ -188,20 +188,29 @@ body {
   .component__1 {
     display: block;
     text-align: center;
-    width: 90%;
+    width: 100%;
   }
 
-  /* .component--1 {
-    /* width: 97%; */
+  .component-star__1 {
+    text-align: center;
+  }
+
+  .component-p__1 {
+    text-align: center;
+  }
+
+  .component--1 {
+    width: 100%;
+  }
 
   .component__2 {
     margin-left: 0;
-    /* width: 97%; */
+    width: 100%;
   }
 
   .component__3 {
     margin-left: 0;
-    /* width: 99%; */
+    width: 100%;
   }
 
   /* SECOND PART */
